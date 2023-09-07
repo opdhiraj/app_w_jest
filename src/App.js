@@ -3,8 +3,9 @@ import Application from "./components/application/Application";
 import Counter from "./components/counter/Counter";
 import Home from "./components/home/Home";
 import Skills from "./components/skills/Skills";
+import Users from "./components/users/Users";
 // import skillslist from "./components/skills/skillslist";
-
+import CounterTwo from "./hooks/counterTwo/CounterTwo";
 function App() {
   let skillslist = ["HTML", "CSS", "JS", "re"];
   return (
@@ -17,6 +18,9 @@ function App() {
       <hr />
       <Counter />
       <hr />
+      <CounterTwo />
+      <hr />
+      <Users />
     </div>
   );
 }
