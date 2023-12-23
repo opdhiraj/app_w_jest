@@ -8,6 +8,7 @@ const Counter = () => {
       <div>
         <h1>{count}</h1>
         <button onClick={() => setCount(count + 1)}>Increment</button>
+        <p>customhook changes</p>p
       </div>
       <div>
         <input
